@@ -1,0 +1,4 @@
+USAGE: lg2 config <KEY> [<VALUE>]
+    This repository's configuration file should be located at /private/var/mobile/Containers/Data/Application/CED00E74-738D-4EFC-BF9A-49658D4732AC/Documents/mywebsite/.git/config
+
+    To update global configurations, try editing ~/Documents/.gitconfig.
