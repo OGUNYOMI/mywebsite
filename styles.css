@@ -5,7 +5,7 @@ body {
 	line-height: 1.6;
 	margin: 0;
 	padding: 0;
-	background-color: blue;
+	background-color: pink;
 	color: indigo;
 }
 
@@ -13,7 +13,7 @@ body {
 header {
 	text-align: center;
 	padding: 20px;
-	background-color: orange;
+	background-color: white;
 	color: white;
 }
 
@@ -21,7 +21,7 @@ header {
 section {
 	margin: 20px;
 	padding: 20px;
-	background-color: #bcd;
+	background-color yellow;
 	border-radius: 5px;
 	box-shadow: 0 2px 5px rgba(0, 0, 0,  0.1);
 }
