@@ -6,7 +6,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: blue;
-	color: green;
+	color: indigo;
 }
 
 /* Header */
@@ -21,7 +21,7 @@ header {
 section {
 	margin: 20px;
 	padding: 20px;
-	background-colr: #bcd;
+	background-color: #bcd;
 	border-radius: 5px;
 	box-shadow: 0 2px 5px rgba(0, 0, 0,  0.1);
 }
@@ -39,14 +39,14 @@ section {
 }
 
 h2{
-	color: #224;
+	color: pink;
 }
 
 button {
 	display: inline-block;
 	padding: 10px 20px;
 	background: #128;
-	color: #efd;
+	color: yellow;
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
@@ -61,5 +61,5 @@ footer {
 	text-align: center;
 	padding: 10px;
 	background: #128;
-	color: #fff;
+	color: black;
 }
