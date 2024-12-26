@@ -5,12 +5,12 @@ body {
 	line-height: 1.6;
 	margin: 0;
 	padding: 0;
-	background-color: pink;
+	background-color: #FF0000;
 	color: indigo;
 }
 
 nav {
-	background-colour; #lilac;
+	background-colour; lilac;
 	padding: 10px;
 }
 
@@ -27,7 +27,7 @@ nav ul li {
 }
 
 nav ul li a {
-	colour: white:
+	colour: #FF00FF;
 	text-decoration: none;
 	padding: 10px 20px;
 	display: block;
@@ -41,7 +41,7 @@ nav ul li a:hober {
 header {
 	text-align: center;
 	padding: 20px;
-	background-color: blue;
+	background-color: #808000;
 	color: white;
 }
 
@@ -59,13 +59,13 @@ header {
 section {
 	 padding: 20px;
 	 margin: 20px 0;
-	 border: 1px solid #ddd;
-	 background-color: #f9f9f9;
-	 border-radius: 5px;
+	 border: 5px solid #;
+	 background-color: #FFA500;
+	 border-radius: 10px;
 	 }
 		h2 {
-		    color: #444;
-		    border-bottom: 2px solid #256;
+		    color: #00FF00;
+		    border-bottom: 5px solid #256;
 		    padding-bottom: 5px;
 		    margin-bottom: 15px;
 		   }
