@@ -45,6 +45,36 @@ header {
 	color: white;
 }
 
+@media (max-width: 768px) {
+    body {
+	      margin: 10px;
+	 }
+
+	 nav ul {
+	    	 flex-direction: column;
+	     	 align-items: center;
+		}
+ }									 
+
+section {
+	 padding: 20px;
+	 margin: 20px 0;
+	 border: 1px solid #ddd;
+	 background-color: #f9f9f9;
+	 border-radius: 5px;
+	 }
+		h2 {
+		    color: #444;
+		    border-bottom: 2px solid #256;
+		    padding-bottom: 5px;
+		    margin-bottom: 15px;
+		   }
+		 .project img {
+				 width: 100%;
+				 max-width: 300px;
+				 border-radius: 5px;
+			      }
+											  
 /* Section */
 section {
 	margin: 20px;
