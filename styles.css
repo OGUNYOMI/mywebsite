@@ -9,6 +9,34 @@ body {
 	color: indigo;
 }
 
+nav {
+	background-colour; #lilac;
+	padding: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav ul li {
+	margin: 0;
+}
+
+nav ul li a {
+	colour: white:
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+}
+
+nav ul li a:hober {
+	background-color: purple;
+}
+
 /* Header */
 header {
 	text-align: center;
