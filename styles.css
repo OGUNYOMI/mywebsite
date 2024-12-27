@@ -1,123 +1,111 @@
-/* A General styling for the body of the website*/
-
+/* General Styles for the Website */
 body {
-	font-family: Arial, sans-serif;
-	line-height: 1.6;
-	margin: 0;
-	padding: 0;
-	background-color: #FF0000;
-	color: indigo;
-}
-
-nav {
-	background-colour; lilac;
-	padding: 10px;
-}
-
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: space-around;
-}
-
-nav ul li {
-	margin: 0;
-}
-
-nav ul li a {
-	colour: #FF00FF;
-	text-decoration: none;
-	padding: 10px 20px;
-	display: block;
-}
-
-nav ul li a:hober {
-	background-color: purple;
-}
-
-/* Header */
-header {
-	text-align: center;
-	padding: 20px;
-	background-color: #808000;
-	color: white;
-}
-
-@media (max-width: 768px) {
-    body {
-	      margin: 10px;
+	font-family: Arial, sans-serif; 
+	line-height: 1.6; 
+	margin: 0; 
+        padding: 0;
+        background-color: #ffffff; 
+	color: #333333; 
 	 }
-
-	 nav ul {
-	    	 flex-direction: column;
-	     	 align-items: center;
-		}
- }									 
-
-section {
-	 padding: 20px;
-	 margin: 20px 0;
-	 border: 5px solid #;
-	 background-color: #FFA500;
-	 border-radius: 10px;
-	 }
-		h2 {
-		    color: #00FF00;
-		    border-bottom: 5px solid #256;
-		    padding-bottom: 5px;
-		    margin-bottom: 15px;
-		   }
-		 .project img {
-				 width: 100%;
-				 max-width: 300px;
-				 border-radius: 5px;
-			      }
-											  
-/* Section */
-section {
-	margin: 20px;
-	padding: 20px;
-	background-color yellow;
-	border-radius: 5px;
-	box-shadow: 0 2px 5px rgba(0, 0, 0,  0.1);
-}
-
-/* Project Styling */
-.project {
-	margin-bottom: 20px;
-}
-
-.project img {
-	max-width: 100%;
-	height: auto;
-	display: block;
-	margin: 0 auto 10px;
-}
-
-h2{
-	color: pink;
-}
-
-button {
-	display: inline-block;
-	padding: 10px 20px;
-	background: #128;
-	color: yellow;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-}
-
-button:hover {
-	background: #333;
-}
 	
-/* Footer */
-footer {
-	text-align: center;
-	padding: 10px;
-	background: #128;
-	color: black;
-}
+	 nav {
+		background-color: #0077cc; 		
+	       	padding: 15px; 
+	     }
+							
+	 nav ul {								            
+		 list-style: none; 
+		 margin: 0; 
+		 padding: 0; 
+		 display: flex; 
+		 justify-content: center;						 
+       		}
+									
+	 nav ul li {
+		     margin: 0 15px;
+		   }
+									
+	 nav ul li a {
+		      text-decoration: none; 
+		      color: #ffffff; 
+		      font-weight: bold; 
+		      font-size: 1rem; 
+	             }
+	
+       /* Header Section */
+	 header {
+		 text-align: center; 
+		 background-color: #f4f4f4; 
+		 padding: 50px 20px; 
+		 }							
+	
+	 header h1 {
+		     margin: 0;
+		     font-size: 2.5rem;
+		     color: #0077cc; 							      }
+    									            header p {
+		   font-size: 1.2rem;
+		   color: #666666; 							 }
+										 /* Section Styling */
+										 section {
+	       padding: 50px 20px; /* Adds spacing inside sections */
+	       margin: 20px auto; /* Space above and below sections */
+	       max-width: 1200px;							 }
+										 /* Headings in Sections */
+      section h2 {
+		  font-weight: bold; /* Makes headings bold */
+		  color: #ff69b4; /* Pink color for headings */
+		  text-align: center; /* Centers headings*/				     margin-bottom: 30px; /* Adds space below headings */
+		 }
+										 /* Portfolio Section */
+	 .project {
+		 display: flex; /* Aligns content horizontally */
+		 gap: 20px; /* Adds space between image and text */
+		 margin-bottom: 40px; /* Adds space between projects */
+		 align-items: center; /* Vertically centers content */
+		  }																       		 .project img {
+	      flex: 0 0 200px; /* Fixes image size for consistency */
+	      max-height: 150px; /* Ensures height is professional */
+	      object-fit: cover; /* Ensures images are cropped evenly */		border-radius: 5px; /* Adds rounded corners to images */
+		  }
+										.project h3 {
+		margin: 10px 0; /* Adds space around project title */
+		color: #0077cc; /* Matches navbar color */
+		}
+					
+		/* Contact Form Styling */
+	 form {
+	       display: flex;
+	       flex-direction: column;
+	       max-width: 600px; /* Limits form width */
+	       margin: 0 auto; /* Centers the form */				      }																	       
+	 form label {
+		      margin-bottom: 5px; /* Adds space below labels */
+		      font-weight: bold; /* Highlights labels */
+		    }
+										    form input, form textarea {
+		 margin-bottom: 15px; 
+		 padding: 10px; /* Adds padding inside inputs */
+		 border: 1px solid #cccccc; /* Light border */
+		 border-radius: 5px; /* Rounded corners */
+		 font-size: 1rem; /* Matches font size with the rest of the site */
+		  }
+
+	form button {
+		        padding: 10px 15px; /* Adds space inside the button */
+			background-color: #0077cc; /* Matches navbar color */
+		        color: #ffffff; /* White button text */
+		        border: none; /* Removes border */
+			border-radius: 5px; /* Rounded corners */
+			font-size: 1rem; /* Standard font size */
+			cursor: pointer; /* Pointer cursor on hover */							 }
+														form button:hover {
+			 background-color: #005fa3; /* Darkens the button on hover */
+			 }
+													 /* Footer Styling */
+	footer {
+		text-align: center; /* Centers the footer text */
+		background-color: #f4f4f4; /* Matches header background */
+		padding: 15px 20px; /* Adds spacing around footer content */
+		font-size: 0.9rem; /* Slightly smaller font for footer */
+	        color: #666666; /* Softer gray for footer text */						    }		       
