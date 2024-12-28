@@ -1,1 +1,28 @@
-<!DOCTYPE httml>
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>{% block title %}ALLSMILES ACADEMY{% endblock %}</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+        <body>
+	    <nav>
+	        <ul>
+		    <li><a href="/">Home</a></li>
+		    <li><a href="/portfolio">Portfolio</a></li>
+		    <li><a href="/tutoring">Tutoring</a></li>
+		    <li><a href="/contact">Contact</a></li>
+		    <li><a href="/register">Register</a></li>
+		    <li><a href="/login">Login</a></li>
+		</ul>
+	    </nav>
+        <header>
+            <h1>ALLSMILES ACADEMY</h1>
+                <p>Your place for learning and growth!</p>
+	</header>										
+	{% block content %}{% endblock %}
+													           <footer>
+		<p>&copy; 2024 ALLSMILES ACADEMY</p>
+              </footer>				
+</body>		
+</html>
